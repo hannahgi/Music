@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="click_to_listen_to_your_favorite_gospel_artist">click to listen to your Favorite Gospel Artist</string>
+    <string name="gospel_songs">Gospel songs</string>
+    <string name="gospel_songs1">Gospel Songs</string>
+    <string name="artist">artist</string>
+</resources>

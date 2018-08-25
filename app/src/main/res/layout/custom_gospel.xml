@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Gospel_Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/th_music" />
+
+    <TextView
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Gospel_Music"
+        android:layout_marginStart="54dp"
+        android:layout_toEndOf="@+id/Gospel_Music"
+        android:text="@string/gospel_songs1" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/music"
+        android:layout_alignTop="@+id/Gospel_Music"
+        android:text="@string/artist" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_alignTop="@+id/artist"
+        android:layout_toStartOf="@+id/stop"
+        android:src="@drawable/th_start" />
+
+    <ImageView
+        android:id="@+id/stop"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/play"
+        android:src="@drawable/th_stop" />
+</RelativeLayout>
